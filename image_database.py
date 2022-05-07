@@ -102,7 +102,8 @@ def save_image(url, fpath):
 
 def display_data():
     '''The data in the database is displayed.'''
-    
+
+    # It is listed from lowest date to highest.    
     cursor.execute("SELECT * FROM images ORDER BY name DESC")
     print("{:>10}  {:>10}  {:>10}".format("date", "name", "url"))
     for item in cursor.fetchall():
