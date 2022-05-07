@@ -15,10 +15,8 @@ I am using the sqlite3 library to create this SQL database.
 
 The current layout of the images table is pretty simple. There are rows for each image that contain the columns date, name, and url.
 
-<center>
-images
-<center>
-| date | name | url |
+<center>images
+<center>| date | name | url |
 
 # Development Environment
 
