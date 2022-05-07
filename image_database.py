@@ -1,15 +1,8 @@
-from email.mime import image
 import sqlite3
 import urllib.request
 import webbrowser
 from PIL import Image
 import os
-
-'''
-References:
-https://stackoverflow.com/questions/31768051/unable-to-download-image-using-python
-https://stackoverflow.com/questions/5333244/how-to-display-a-jpg-file-in-python
-'''
 
 # The connection to the database is established.
 connection = sqlite3.connect('images.db')
