@@ -37,7 +37,7 @@ def remove_image():
     name = input("What is the name?: ")
 
     # Chcecks to see if there is an image with that name to be removed.
-    if image_exists():
+    if image_exists(name):
 
         # Image is deleted from database.
         values = (name, )
